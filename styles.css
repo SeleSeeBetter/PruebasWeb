@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+    background-color: #e9f8fa;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #a3d2f1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: Verdana, sans-serif; 
+}
+
+.descripcion {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;  /*Bordes redondeados*/
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 120%; 
+    max-width: 1000px;  /* Ancho máximo para el contenedor */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descripcion p {
+    word-wrap: break-word; 
+    width: 100%;
+    max-width: 100%;
+}
+
+.imagen-grupo {
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;  /* Se consigue que las filas tengan colores alternos */
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;  /*Inputs redondeados*/
+    border: 1px solid #ccc;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/*Se visualizarán en horizontal para ser más visualmente atractivos.*/
+.metodo-pago {
+    display: flex;
+    gap: 15px;
+}
+
+.metodo-pago label {
+    display: flex;
+    align-items: center;
+    gap: 1px; 
+}
+
+.metodo-pago input[type="radio"] {
+    display: inline-block;
+    margin-right: 2px; 
+}
+
+input[type="submit"], button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* ESTILOS DE PAGINA DE CONFIRMACIÓN */
+.confirmacion {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+
+.confirmacion p {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.confirmacion h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.confirmacion a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.confirmacion a:hover {
+    text-decoration: underline;
+}
